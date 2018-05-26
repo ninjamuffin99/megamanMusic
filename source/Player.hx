@@ -1,5 +1,6 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.system.FlxAssets.FlxGraphicAsset;
 import flixel.util.FlxColor;
@@ -17,8 +18,8 @@ class Player extends FlxSprite
 		
 		makeGraphic(90, 90, FlxColor.WHITE);
 		
-		maxVelocity.set(120, 220);
-		acceleration.y = 200;
+		maxVelocity.set(120, 320);
+		acceleration.y = 800;
 		drag.x = maxVelocity.x * 4;
 		
 	}
@@ -27,6 +28,15 @@ class Player extends FlxSprite
 	override public function update(elapsed:Float):Void 
 	{
 		super.update(elapsed);
+		
+		if (FlxG.keys.pressed.D)
+		{
+			velocity.x = 60;
+		}
+		if (FlxG.keys.pressed.A)
+		{
+			velocity.x = -60;
+		}
 	}
 	
 }
