@@ -7,6 +7,7 @@ import flixel.FlxState;
 import flixel.addons.editors.ogmo.FlxOgmoLoader;
 import flixel.addons.tile.FlxTilemapExt;
 import flixel.graphics.frames.FlxTileFrames;
+import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxPoint;
 import flixel.system.FlxSound;
 import flixel.util.FlxColor;
@@ -14,6 +15,7 @@ import flixel.util.FlxColor;
 class PlayState extends FlxState
 {
 	private var _player:Player;
+	private var _bulletsPlayer:FlxTypedGroup<Bullet>;
 	private var _map:FlxOgmoLoader;
 	private var _mWalls:FlxTilemapExt;
 	
@@ -24,7 +26,10 @@ class PlayState extends FlxState
 	{
 		songInit();
 		
-		_player = new Player(10, 10);
+		_bulletsPlayer = new FlxTypedGroup<Bullet>();
+		add(_bulletsPlayer);
+		
+		_player = new Player(10, 10, _bulletsPlayer);
 		add(_player);
 		
 		mapInit();

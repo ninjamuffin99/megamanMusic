@@ -50,6 +50,18 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/images/Untitled-40001.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/Untitled-40002.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
+		urls.push ("assets/images/Untitled-40003.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/music/52493_newgrounds_51sec.mp3");
 		types.push (lime.Assets.AssetType.MUSIC);
 		
@@ -147,7 +159,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "50",
+			build: "58",
 			company: "HaxeFlixel",
 			file: "megamanMusic",
 			fps: 60,
