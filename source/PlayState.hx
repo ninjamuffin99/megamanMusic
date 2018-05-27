@@ -1,10 +1,13 @@
 package;
 
+import flixel.FlxCamera.FlxCameraFollowStyle;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
 import flixel.addons.editors.ogmo.FlxOgmoLoader;
 import flixel.addons.tile.FlxTilemapExt;
+import flixel.graphics.frames.FlxTileFrames;
+import flixel.math.FlxPoint;
 import flixel.util.FlxColor;
 
 class PlayState extends FlxState
@@ -23,6 +26,11 @@ class PlayState extends FlxState
 		_mWalls = _map.loadTilemapExt(AssetPaths.colortiles__png, 10, 10, "walls");
 		_mWalls.follow();
 		
+		// tile tearing problem fix
+		var levelTiles = FlxTileFrames.fromBitmapAddSpacesAndBorders(AssetPaths.colortiles__png,
+			new FlxPoint(10, 10), new FlxPoint(2, 2), new FlxPoint(2, 2));
+		_mWalls.frames = levelTiles;
+		
 		var tempNW:Array<Int> = [5, 9, 10, 13, 15];
 		var tempNE:Array<Int> = [6, 11, 12, 14, 16];
 		var tempSW:Array<Int> = [7, 17, 18, 21, 23];
@@ -36,6 +44,9 @@ class PlayState extends FlxState
 		add(_mWalls);
 		
 		_map.loadEntities(placeEntities, "ENTITIES");
+		
+		FlxG.camera.zoom = 2;
+		FlxG.camera.follow(_player, FlxCameraFollowStyle.PLATFORMER, 0.2);
 		
 		super.create();
 	}
@@ -56,11 +67,6 @@ class PlayState extends FlxState
 		super.update(elapsed);
 		
 		FlxG.collide(_player, _mWalls);
-		
-		if (FlxG.keys.justPressed.SPACE)
-		{
-			_player.velocity.y -= _player.maxVelocity.y;
-		}
 		
 	}
 }
