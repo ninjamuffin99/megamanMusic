@@ -19,7 +19,7 @@ class Player extends FlxSprite
 	private var speed:Float = 200;
 	private var rateOfFire:Int = 1;
 	private var fireCoutner:Int = 0;
-	
+	public var onBeat:Bool = false;
 	
 	private var dashTimer:Float = 0;
 	private var dashDir:Int = 0;
@@ -124,6 +124,11 @@ class Player extends FlxSprite
 		}
 		
 		var newBullet = new Bullet(x, y, 800, facing, 10);
+		
+		if (onBeat)
+			newBullet.color = FlxColor.RED;
+		
+		
 		bulletArray.add(newBullet);
 	}
 	

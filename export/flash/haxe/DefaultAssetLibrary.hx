@@ -64,6 +64,19 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_monsterrat_ttf);
 		
@@ -81,6 +94,32 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/level1.oel", AssetType.TEXT);
 		className.set ("assets/data/mapProject.oep", __ASSET__assets_data_mapproject_oep);
 		type.set ("assets/data/mapProject.oep", AssetType.TEXT);
+		className.set ("assets/images/clam digger walk cycle/clam-diver-reference.png", __ASSET__assets_images_clam_digger_walk_cycle_clam_diver_reference_png);
+		type.set ("assets/images/clam digger walk cycle/clam-diver-reference.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/diver-idle test.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_idle_test_png);
+		type.set ("assets/images/clam digger walk cycle/diver-idle test.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/diver-idle-stance-1.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_idle_stance_1_png);
+		type.set ("assets/images/clam digger walk cycle/diver-idle-stance-1.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/diver-stance-2.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_2_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-2.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/diver-stance-3.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_3_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-3.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/diver-stance-4.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_4_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-4.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/diver-stance-5.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_5_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-5.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/diver-stance-6.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_6_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-6.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/diver-stance-7.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_7_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-7.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/game sheet walk order.png", __ASSET__assets_images_clam_digger_walk_cycle_game_sheet_walk_order_png);
+		type.set ("assets/images/clam digger walk cycle/game sheet walk order.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/stance-8.png", __ASSET__assets_images_clam_digger_walk_cycle_stance_8_png);
+		type.set ("assets/images/clam digger walk cycle/stance-8.png", AssetType.IMAGE);
+		className.set ("assets/images/clam digger walk cycle/stance-9.png", __ASSET__assets_images_clam_digger_walk_cycle_stance_9_png);
+		type.set ("assets/images/clam digger walk cycle/stance-9.png", AssetType.IMAGE);
+		className.set ("assets/images/clam_digger_zip_folder.zip", __ASSET__assets_images_clam_digger_zip_folder_zip);
+		type.set ("assets/images/clam_digger_zip_folder.zip", AssetType.BINARY);
 		className.set ("assets/images/images-go-here.txt", __ASSET__assets_images_images_go_here_txt);
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		className.set ("assets/images/Untitled-40001.png", __ASSET__assets_images_untitled_40001_png);
@@ -128,6 +167,58 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
+		id = "assets/images/clam digger walk cycle/clam-diver-reference.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/diver-idle test.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/diver-idle-stance-1.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/diver-stance-2.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/diver-stance-3.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/diver-stance-4.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/diver-stance-5.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/diver-stance-6.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/diver-stance-7.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/game sheet walk order.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/stance-8.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam digger walk cycle/stance-9.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/clam_digger_zip_folder.zip";
+		path.set (id, id);
+		
+		type.set (id, AssetType.BINARY);
 		id = "assets/images/images-go-here.txt";
 		path.set (id, id);
 		
@@ -209,6 +300,45 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("assets/data/mapProject.oep", __ASSET__assets_data_mapproject_oep);
 		type.set ("assets/data/mapProject.oep", AssetType.TEXT);
+		
+		className.set ("assets/images/clam digger walk cycle/clam-diver-reference.png", __ASSET__assets_images_clam_digger_walk_cycle_clam_diver_reference_png);
+		type.set ("assets/images/clam digger walk cycle/clam-diver-reference.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/diver-idle test.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_idle_test_png);
+		type.set ("assets/images/clam digger walk cycle/diver-idle test.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/diver-idle-stance-1.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_idle_stance_1_png);
+		type.set ("assets/images/clam digger walk cycle/diver-idle-stance-1.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/diver-stance-2.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_2_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-2.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/diver-stance-3.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_3_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-3.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/diver-stance-4.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_4_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-4.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/diver-stance-5.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_5_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-5.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/diver-stance-6.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_6_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-6.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/diver-stance-7.png", __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_7_png);
+		type.set ("assets/images/clam digger walk cycle/diver-stance-7.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/game sheet walk order.png", __ASSET__assets_images_clam_digger_walk_cycle_game_sheet_walk_order_png);
+		type.set ("assets/images/clam digger walk cycle/game sheet walk order.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/stance-8.png", __ASSET__assets_images_clam_digger_walk_cycle_stance_8_png);
+		type.set ("assets/images/clam digger walk cycle/stance-8.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam digger walk cycle/stance-9.png", __ASSET__assets_images_clam_digger_walk_cycle_stance_9_png);
+		type.set ("assets/images/clam digger walk cycle/stance-9.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/clam_digger_zip_folder.zip", __ASSET__assets_images_clam_digger_zip_folder_zip);
+		type.set ("assets/images/clam_digger_zip_folder.zip", AssetType.BINARY);
 		
 		className.set ("assets/images/images-go-here.txt", __ASSET__assets_images_images_go_here_txt);
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
@@ -897,6 +1027,19 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_data_data_goes_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_level1_oel extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_mapproject_oep extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_clam_diver_reference_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_idle_test_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_idle_stance_1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_2_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_3_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_4_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_5_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_6_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_7_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_game_sheet_walk_order_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_stance_8_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_stance_9_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_clam_digger_zip_folder_zip extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_images_go_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_untitled_40001_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_untitled_40002_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -913,6 +1056,19 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 #elseif html5
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -944,6 +1100,19 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/data/data-goes-here.txt") #if display private #end class __ASSET__assets_data_data_goes_here_txt extends lime.utils.Bytes {}
 @:file("assets/data/level1.oel") #if display private #end class __ASSET__assets_data_level1_oel extends lime.utils.Bytes {}
 @:file("assets/data/mapProject.oep") #if display private #end class __ASSET__assets_data_mapproject_oep extends lime.utils.Bytes {}
+@:image("assets/images/clam digger walk cycle/clam-diver-reference.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_clam_diver_reference_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/diver-idle test.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_idle_test_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/diver-idle-stance-1.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_idle_stance_1_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/diver-stance-2.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_2_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/diver-stance-3.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_3_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/diver-stance-4.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_4_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/diver-stance-5.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_5_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/diver-stance-6.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_6_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/diver-stance-7.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_diver_stance_7_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/game sheet walk order.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_game_sheet_walk_order_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/stance-8.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_stance_8_png extends lime.graphics.Image {}
+@:image("assets/images/clam digger walk cycle/stance-9.png") #if display private #end class __ASSET__assets_images_clam_digger_walk_cycle_stance_9_png extends lime.graphics.Image {}
+@:file("assets/images/clam_digger_zip_folder.zip") #if display private #end class __ASSET__assets_images_clam_digger_zip_folder_zip extends lime.utils.Bytes {}
 @:file("assets/images/images-go-here.txt") #if display private #end class __ASSET__assets_images_images_go_here_txt extends lime.utils.Bytes {}
 @:image("assets/images/Untitled-40001.png") #if display private #end class __ASSET__assets_images_untitled_40001_png extends lime.graphics.Image {}
 @:image("assets/images/Untitled-40002.png") #if display private #end class __ASSET__assets_images_untitled_40002_png extends lime.graphics.Image {}
