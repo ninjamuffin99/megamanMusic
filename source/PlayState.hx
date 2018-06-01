@@ -27,7 +27,7 @@ class PlayState extends FlxState
 	
 	private var safeZoneOffset:Float = 0;
 	//  how many frames you have to hit note
-	private var safeFrames:Int = 16;
+	private var safeFrames:Int = 13;
 	private var canHit:Bool = false;
 	
 	override public function create():Void
@@ -129,19 +129,12 @@ class PlayState extends FlxState
 		Conductor.songPosition = _song.time;
 		var beatDelta:Float = Conductor.songPosition - lastBeat;
 		
-		
-		if (beatDelta < safeZoneOffset)
-		{
-			canHit = true;
-		}
-		else
-			canHit = false;
-		
-		//every beat
-		if (Conductor.songPosition > lastBeat + Conductor.crochet - safeZoneOffset) 
+		//	SHOUTOUTS TO FermiGames MVP MVP
+		if (Conductor.songPosition > lastBeat + Conductor.crochet - safeZoneOffset || Conductor.songPosition < lastBeat + safeZoneOffset) 
 		{
 			canHit = true;
 			
+			// every beat 	
 			if (Conductor.songPosition > lastBeat + Conductor.crochet)
 			{
 				oldBeat = lastBeat;
@@ -150,7 +143,9 @@ class PlayState extends FlxState
 				totalBeats += 1;
 			}
 		}
-		
+		else
+			canHit = false;
+
 		
 		
 		FlxG.watch.addQuick("beats delta" , Conductor.songPosition - lastBeat);

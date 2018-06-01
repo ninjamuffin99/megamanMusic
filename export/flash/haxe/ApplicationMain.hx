@@ -211,7 +211,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "121",
+			build: "129",
 			company: "HaxeFlixel",
 			file: "megamanMusic",
 			fps: 60,
