@@ -15,6 +15,10 @@ class Bullet extends FlxSprite
 	private var speed:Float;
 	public var dir:Int;
 	public var damage:Float;
+	public var bType:String = "";
+	
+	public static inline var PLAYER:String = "Player";
+	public static inline var ENEMY:String = "Enemy";
 
 	public function new(?X:Float=0, ?Y:Float=0, Speed:Float, Direction:Int, Damage:Float) 
 	{
