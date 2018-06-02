@@ -36,7 +36,7 @@ class Player extends CharacterBase
 		controls();	
 		FlxG.watch.addQuick("acc", acceleration);
 		FlxG.watch.addQuick("vel", velocity);
-		
+		FlxG.watch.addQuick("On beat: ", onBeat);
 		
 		super.update(elapsed);
 	
@@ -87,11 +87,7 @@ class Player extends CharacterBase
 			FlxG.log.add("jump" + FlxG.random.int(0, 100));
 		}
 		
-		shooting(_shoot);
-	}
-	
-	private function shooting(shootBtn:Bool):Void
-	{
-		attack(Bullet.PLAYER);
+		if (_shoot)
+			attack(Bullet.PLAYER);
 	}
 }

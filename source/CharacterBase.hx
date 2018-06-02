@@ -65,23 +65,21 @@ class CharacterBase extends FlxSprite
 	{
 		if (canFire)
 		{
-			FlxG.sound.play("assets/sounds/bullet" + FlxG.random.int(1, 3) + ".mp3", 0.13);
 			if (bullType == Bullet.ENEMY)
 			{
 				FlxG.log.add("enemy Fired");
 			}
 			
-			var newBullet = new Bullet(x, y, 800, facing, 10);
 		
+
+			var newBullet = new Bullet(getMidpoint().x, getMidpoint().y, 800, facing, 1);
 			if (onBeat)
 				newBullet.color = FlxColor.RED;
 			
-			var newBullet = new Bullet(getMidpoint().x, getMidpoint().y, 1000, 60, 1);
 			newBullet.bType = bullType;
-			newBullet.velocity.x += velocity.x * 0.2;
-			newBullet.velocity.y += velocity.y * 0.2;
 			bulletArray.add(newBullet);
 			canFire = false;
+			
 			
 			velocity.x -= newBullet.velocity.x * 0.25;
 			velocity.y -= newBullet.velocity.y * 0.25;
